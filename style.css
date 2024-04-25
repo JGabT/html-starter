@@ -1,0 +1,35 @@
+/* Use creamy font for html */
+html {
+    font-family: "Creamy", sans-serif;
+}
+
+.navbar {
+    position: relative;
+    z-index: 100;
+    background: white;
+    /* background opacity */
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.main-content::before {
+    content: " ";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 150%;
+	box-sizing: border-box;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a1/Mallard2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	filter: blur(5px);
+    opacity: 0.9;
+    z-index: 0;
+    background-image: url("BG.jpg");
+}
+
+.main-container {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+}
