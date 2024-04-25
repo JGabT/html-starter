@@ -1,0 +1,43 @@
+<!-- Boilerplate with tailwindcss and the (main.js) linked -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRWM Cosmetics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar with 3 links and main title "GRWM Cosmetics in the left" -->
+    <nav class="flex justify-center items-center p-4 shadow-lg text-black navbar">
+        <div class="flex justify-between items-center w-full xl:w-1/2">
+            <h1 class="text-2xl font-bold">GRWM Cosmetics</h1>
+            <ul class="flex gap-3">
+                <li class="hover:text-purple-400 transition-all"><a href="#">HOME</a></li>
+                <li class="hover:text-purple-400 transition-all"><a href="/about.html">ABOUT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="flex flex-col items-center justify-center p-3 gap-5 mt-5 main-content">
+        <div
+            class="flex flex-col lg:flex-row  items-center justify-center gap-5 lg:w-4/5 bg-gradient-to-bl from-rose-200 via-pink-100 to-indigo-300 p-5 rounded-xl shadow-lg shadow-[#ADB9FB] main-container">
+            <div class="flex flex-col items-center">
+                <img src="thescience.png" alt="GRWM" class="w-full lg:w-2/3 shadow-md shadow-[#B66F75] rounded-xl">
+                
+            </div>
+
+
+
+
+            <!-- <h1 class="text-4xl text-center">Get Glammed With Us</h1> -->
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
